@@ -102,12 +102,12 @@
     <message>
         <location filename="../src/libsync/abstractnetworkjob.cpp" line="251"/>
         <source>Unknown error: network reply was deleted</source>
-        <translation>Erro desconhecido: a resposta da rede foi excluída</translation>
+        <translation>Erro desconhecido: a resposta de rede foi excluída</translation>
     </message>
     <message>
         <location filename="../src/libsync/abstractnetworkjob.cpp" line="403"/>
         <source>Server replied &quot;%1 %2&quot; to &quot;%3 %4&quot;</source>
-        <translation>Resposta do servidor &quot;%1 %2&quot; to &quot;%3 %4&quot;</translation>
+        <translation>Resposta do servidor &quot;%1 %2&quot; para &quot;%3 %4&quot;</translation>
     </message>
 </context>
 <context>
@@ -125,12 +125,12 @@
     <message>
         <location filename="../src/gui/accountsettings.ui" line="79"/>
         <source>Storage space: ...</source>
-        <translation>Espaço de armazenamento: ...</translation>
+        <translation>Seu espaço: ...</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="152"/>
         <source>Unchecked folders will be &lt;b&gt;removed&lt;/b&gt; from your local file system and will not be synchronized to this computer anymore</source>
-        <translation>Pastas não marcadas serão &lt;b&gt;removidos&lt;/b&gt; de seu sistema de arquivos local e não serão mais sincronizadas com este computador</translation>
+        <translation>Pastas não marcadas serão &lt;b&gt;removidas&lt;/b&gt; de seu armazenamento local e não serão mais sincronizadas com este computador</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.ui" line="198"/>
@@ -162,7 +162,7 @@
     <message>
         <location filename="../src/gui/accountsettings.ui" line="42"/>
         <source>Connected with &lt;server&gt; as &lt;user&gt;</source>
-        <translation>Conectado com &lt;server&gt; como &lt;user&gt;</translation>
+        <translation>Conectado a &lt;server&gt; como &lt;user&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="182"/>
@@ -227,12 +227,12 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="531"/>
         <source>Sync Running</source>
-        <translation>Sincronização Acontecendo</translation>
+        <translation>Sincronização em andamento</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="532"/>
         <source>The syncing operation is running.&lt;br/&gt;Do you want to terminate it?</source>
-        <translation>A operação de sincronização está acontecendo.&lt;br/&gt;Você deseja finaliza-la?</translation>
+        <translation>A operação de sincronização está em curso.&lt;br/&gt;Você deseja finaliza-la?</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="621"/>
@@ -292,7 +292,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="797"/>
         <source>There are folders that were not synchronized because they are too big: </source>
-        <translation>Existem pastas que não foram sincronizadas porque são muito grandes:</translation>
+        <translation>Existem pastas que não foram sincronizadas porque são maiores que o limite que você definiu:</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="799"/>
@@ -312,7 +312,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="847"/>
         <source>&lt;p&gt;Do you really want to remove the connection to the account &lt;i&gt;%1&lt;/i&gt;?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Note:&lt;/b&gt; This will &lt;b&gt;not&lt;/b&gt; delete any files.&lt;/p&gt;</source>
-        <translation>&lt;p&gt;Você realmente deseja remover a conexão desta conta&lt;i&gt;%1&lt;/i&gt;?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Nota:&lt;/b&gt; Isto &lt;b&gt;não&lt;/b&gt; irá deletar nenhum arquivo.&lt;/p&gt;</translation>
+        <translation>&lt;p&gt;Você deseja remover a conexão desta conta&lt;i&gt;%1&lt;/i&gt;?&lt;/p&gt;&lt;p&gt;&lt;b&gt;Nota:&lt;/b&gt; Isso &lt;b&gt;não&lt;/b&gt; irá deletar nenhum arquivo.&lt;/p&gt;</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="853"/>
@@ -334,7 +334,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="313"/>
         <source>Resume sync</source>
-        <translation>Resumir sincronização</translation>
+        <translation>Continuar sincronização</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="313"/>
@@ -349,7 +349,7 @@
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="608"/>
         <source>%1 (%3%) of %2 in use. Some folders, including network mounted or shared folders, might have different limits.</source>
-        <translation>%1 (%3%) de%2 em uso. Algumas pastas, incluindo montadas na rede ou pastas compartilhadas, podem ter limites diferenes.</translation>
+        <translation>%1 (%3%) de%2 em uso. Algumas pastas, incluindo pastas de rede ou pastas compartilhadas, podem ter limites diferenes.</translation>
     </message>
     <message>
         <location filename="../src/gui/accountsettings.cpp" line="609"/>
@@ -434,12 +434,12 @@
         <location filename="../src/gui/activitywidget.cpp" line="515"/>
         <location filename="../src/gui/activitywidget.cpp" line="563"/>
         <source>Server Activity</source>
-        <translation>Atividade do Servidor</translation>
+        <translation>Registro de Atividades</translation>
     </message>
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="522"/>
         <source>Sync Protocol</source>
-        <translation>Protocolo de Sincronização</translation>
+        <translation>Registro de Sincronização</translation>
     </message>
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="571"/>
@@ -450,12 +450,12 @@
         <location filename="../src/gui/activitywidget.cpp" line="574"/>
         <source>Not Synced (%1)</source>
         <extracomment>%1 is the number of not synced files.</extracomment>
-        <translation>Não sincronizada (%1)</translation>
+        <translation>Não sincronizado (%1)</translation>
     </message>
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="606"/>
         <source>The server activity list has been copied to the clipboard.</source>
-        <translation>A lista de atividades do servidor tem sido copiados para o clipboard.</translation>
+        <translation>A lista de atividades do servidor foi copiada para a área de transferência.</translation>
     </message>
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="610"/>
@@ -490,7 +490,7 @@
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="131"/>
         <source>Server Activities</source>
-        <translation>Atividades do Servidor</translation>
+        <translation>Atividade</translation>
     </message>
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="87"/>
@@ -510,7 +510,7 @@
     <message>
         <location filename="../src/gui/activitywidget.cpp" line="140"/>
         <source>&lt;br/&gt;Account %1 does not have activities enabled.</source>
-        <translation>&lt;br/&gt;A conta %1 não tem atividades ativadas.</translation>
+        <translation>&lt;br/&gt;A conta %1 não possui registro de atividades habilitado.</translation>
     </message>
     <message numerus="yes">
         <location filename="../src/gui/activitywidget.cpp" line="349"/>
@@ -538,7 +538,7 @@
     <message>
         <location filename="../src/gui/addcertificatedialog.ui" line="17"/>
         <source>SSL client certificate authentication</source>
-        <translation>Cerificado SSL de autenticação de cliente</translation>
+        <translation>Cerificado SSL de autenticação do cliente</translation>
     </message>
     <message>
         <location filename="../src/gui/addcertificatedialog.ui" line="23"/>
@@ -576,7 +576,7 @@
     <message>
         <location filename="../src/gui/application.cpp" line="189"/>
         <source>Error accessing the configuration file</source>
-        <translation>Erro acessando o arquivo de configuração</translation>
+        <translation>Erro ao acessar o arquivo de configuração</translation>
     </message>
     <message>
         <location filename="../src/gui/application.cpp" line="190"/>
@@ -586,7 +586,7 @@
     <message>
         <location filename="../src/gui/application.cpp" line="193"/>
         <source>Quit ownCloud</source>
-        <translation>Sair do ownCloud</translation>
+        <translation>Sair do aplicativo</translation>
     </message>
 </context>
 <context>
@@ -594,7 +594,7 @@
     <message>
         <location filename="../src/gui/authenticationdialog.cpp" line="30"/>
         <source>Authentication Required</source>
-        <translation>Autenticação é Requerida</translation>
+        <translation>Autenticação é Necessária</translation>
     </message>
     <message>
         <location filename="../src/gui/authenticationdialog.cpp" line="32"/>
@@ -625,7 +625,7 @@
     <message>
         <location filename="../src/gui/connectionvalidator.cpp" line="46"/>
         <source>No ownCloud account configured</source>
-        <translation>Nenhuma conta ownCloud configurada</translation>
+        <translation>Nenhuma conta configurada</translation>
     </message>
     <message>
         <location filename="../src/gui/connectionvalidator.cpp" line="281"/>
@@ -635,12 +635,12 @@
     <message>
         <location filename="../src/gui/connectionvalidator.cpp" line="282"/>
         <source>Please update to the latest server and restart the client.</source>
-        <translation>Por favor, atualize para o último servidor e reinicie o cliente.</translation>
+        <translation>Por favor, peça para o administrar atualizar o servidor para a última versão e tente novamente.</translation>
     </message>
     <message>
         <location filename="../src/gui/connectionvalidator.cpp" line="143"/>
         <source>Authentication error: Either username or password are wrong.</source>
-        <translation>Erro de autenticação. Ou nome de usuário ou senha está errada.</translation>
+        <translation>Erro de autenticação. Nome de usuário ou senha incorreto(s).</translation>
     </message>
     <message>
         <location filename="../src/gui/connectionvalidator.cpp" line="155"/>
@@ -753,7 +753,7 @@
     <message numerus="yes">
         <location filename="../src/gui/folder.cpp" line="418"/>
         <source>%1 and %n other file(s) could not be synced due to errors. See the log for details.</source>
-        <translation><numerusform>%1 e %n outro arquivo não pode ser sincronizado devido a erros. Veja o log para detalhes.</numerusform><numerusform>%1 e %n outros arquivo(s) não puderam ser sincronizados devido a erros. Veja o log para detalhes.</numerusform></translation>
+        <translation><numerusform>%1 e %n outro arquivo não pode ser sincronizado devido a erros. Veja o registro de sincronização para mais detalhes.</numerusform><numerusform>%1 e %n outros arquivo(s) não puderam ser sincronizados devido a erros. Veja o registro de sincronização para mais detalhes.</numerusform></translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="420"/>
@@ -808,7 +808,7 @@ This means that the synchronization client might not upload local changes immedi
 %1</source>
         <translation>As alterações nas pastas sincronizadas não puderam ser rastreadas de maneira confiável.
 
-Isso significa que o cliente de sincronização pode não fazer envios de alterações locais imediatamente e, em vez disso, só varre as alterações locais e as carrega ocasionalmente (a cada duas horas, por padrão).
+Isso significa que o cliente de sincronização pode não enviar alterações locais imediatamente e, em vez disso, só irá procurar por alterações locais e as enviá-las ocasionalmente (a cada duas horas, por padrão).
 
 %1</translation>
     </message>
@@ -818,7 +818,7 @@ Isso significa que o cliente de sincronização pode não fazer envios de altera
 These deletes will be synchronized to your local sync folder, making such files unavailable unless you have a right to restore. 
 If you decide to keep the files, they will be re-synced with the server if you have rights to do so.
 If you decide to delete the files, they will be unavailable to you, unless you are the owner.</source>
-        <translation>Todos os arquivos na pasta &apos;%1&apos; de sincronização foram excluídos no servidor. 
+        <translation>Todos os arquivos na pasta de sincronização &apos;%1&apos; foram excluídos no servidor. 
  Essas exclusões serão sincronizadas com a pasta de sincronização local, tornando esses arquivos indisponíveis, a menos que você tenha o direito de restaurar. 
  Se você decidir manter os arquivos, eles serão re-sincronizados com o servidor se você tiver direitos para fazê-lo. 
 Se você decidir excluir os arquivos, eles não estarão disponíveis para você, a menos que você seja o proprietário.</translation>
@@ -828,7 +828,9 @@ Se você decidir excluir os arquivos, eles não estarão disponíveis para você
         <source>All the files in your local sync folder '%1' were deleted. These deletes will be synchronized with your server, making such files unavailable unless restored.
 Are you sure you want to sync those actions with the server?
 If this was an accident and you decide to keep your files, they will be re-synced from the server.</source>
-        <translation>Todos os arquivos na pasta de sincronização local &apos;%1&apos; foram excluídos. Essas exclusões serão sincronizadas com o servidor, tornando tais arquivos indisponíveis, a menos que restaurados.Tem certeza de que deseja sincronizar essas ações com o servidor?Se isso foi um acidente e você decidir manter seus arquivos, eles serão re-sincronizados a partir do servidor.</translation>
+        <translation>Todos os arquivos na pasta de sincronização local &apos;%1&apos; foram excluídos. Essas exclusões serão sincronizadas com o servidor, tornando tais arquivos indisponíveis, a menos que sejam restaurados.
+Tem certeza de que deseja sincronizar essas ações com o servidor?
+Se isso foi um acidente e você decidir manter seus arquivos, eles serão re-sincronizados a partir do servidor.</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="1078"/>
@@ -850,9 +852,9 @@ If this was an accident and you decide to keep your files, they will be re-synce
         <source>This sync would reset the files to an earlier time in the sync folder '%1'.
 This might be because a backup was restored on the server.
 Continuing the sync as normal will cause all your files to be overwritten by an older file in an earlier state. Do you want to keep your local most recent files as conflict files?</source>
-        <translation>Essa sincronização redefinira os arquivos para uma hora anterior na pasta de sincronização &apos;%1&apos;.
-Isso pode ser porque um backup foi restaurado no servidor.
-Continuar a sincronização como normal fará com que todos os seus arquivos sejam substituídos por um arquivo antigo em um estado anterior. Deseja manter seus arquivos mais recentes locais como arquivos de conflito?</translation>
+        <translation>Essa sincronização redefinirá os arquivos para uma hora anterior na pasta de sincronização &apos;%1&apos;.
+Isso pode ter ocorrido porque um backup foi restaurado no servidor.
+Continuar a sincronização normalmente fará com que todos os seus arquivos sejam substituídos por um arquivo antigo em um estado anterior. Deseja manter seus arquivos mais recentes locais como arquivos de conflito?</translation>
     </message>
     <message>
         <location filename="../src/gui/folder.cpp" line="1104"/>
@@ -880,7 +882,7 @@ Continuar a sincronização como normal fará com que todos os seus arquivos sej
     <message>
         <location filename="../src/gui/folderman.cpp" line="280"/>
         <source>An old sync journal &apos;%1&apos; was found, but could not be removed. Please make sure that no application is currently using it.</source>
-        <translation>Uma velha revista de sincronização &apos;%1&apos; foi encontrada, mas não pôde ser removida. Por favor, certifique-se de que nenhuma aplicação está a usá-la.</translation>
+        <translation>Um registro de sincronização antigo &apos;%1&apos; foi encontrado, mas não pôde ser removidoa. Por favor, certifique-se de que nenhuma aplicação está utilizando esse arquivo e impedindo sua remoção.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1033"/>
@@ -905,17 +907,17 @@ Continuar a sincronização como normal fará com que todos os seus arquivos sej
     <message>
         <location filename="../src/gui/folderman.cpp" line="1222"/>
         <source>Preparing for sync.</source>
-        <translation>Preparando para sincronização.</translation>
+        <translation>Preparando para sincronizar.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1225"/>
         <source>Sync is running.</source>
-        <translation>A sincronização está ocorrendo.</translation>
+        <translation>A sincronização está em curso.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1230"/>
         <source>Sync was successful, unresolved conflicts.</source>
-        <translation>A sincronização foi bem-sucedida, conflitos não resolvidos.</translation>
+        <translation>A sincronização foi bem-sucedida, mas há conflitos não resolvidos.</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1232"/>
@@ -965,7 +967,7 @@ Continuar a sincronização como normal fará com que todos os seus arquivos sej
     <message>
         <location filename="../src/gui/folderman.cpp" line="1337"/>
         <source>There is already a sync from the server to this local folder. Please pick another local folder!</source>
-        <translation>Já existe uma sincronização do servidor para esta pasta local. Por favor, escolha uma outra pasta local!</translation>
+        <translation>Já existe uma sincronização do servidor para essa pasta local. Por favor, escolha uma outra pasta local!</translation>
     </message>
     <message>
         <location filename="../src/gui/folderman.cpp" line="1297"/>
@@ -988,7 +990,7 @@ Continuar a sincronização como normal fará com que todos os seus arquivos sej
     <message>
         <location filename="../src/gui/folderstatusdelegate.cpp" line="46"/>
         <source>Add Folder Sync Connection</source>
-        <translation>Adicionar Pasta a Sincronizar</translation>
+        <translation>Adicionar Pasta para Sincronizar</translation>
     </message>
     <message>
         <location filename="../src/gui/folderstatusdelegate.cpp" line="249"/>
