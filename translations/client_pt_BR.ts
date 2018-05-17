@@ -28,7 +28,7 @@
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="33"/>
         <source>Pick a local folder on your computer to sync</source>
-        <translation>Selecione um diretório no seu computador para ser sincronizado</translation>
+        <translation>Selecione uma pasta de seu computador para ser sincronizada</translation>
     </message>
     <message>
         <location filename="../src/gui/folderwizardsourcepage.ui" line="44"/>
@@ -1418,7 +1418,7 @@ Continuar a sincronização normalmente fará com que todos os seus arquivos sej
     <message>
         <location filename="../src/gui/ignorelisteditor.ui" line="26"/>
         <source>Sync hidden files</source>
-        <translation>Sincronizar arquivos escondidos</translation>
+        <translation>Sincronizar arquivos ocultos</translation>
     </message>
     <message>
         <location filename="../src/gui/ignorelisteditor.ui" line="36"/>
@@ -2585,7 +2585,7 @@ This is a new, experimental mode. If you decide to use it, please report any iss
     <message>
         <location filename="../src/gui/selectivesyncdialog.cpp" line="459"/>
         <source>Choose What to Sync</source>
-        <translation>Escolher o que Sincronizar</translation>
+        <translation>Escolha o que Sincronizar</translation>
     </message>
 </context>
 <context>
